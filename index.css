@@ -15,7 +15,7 @@ body {
 header, .home-container {
     padding: 0;
     margin: 0;
-    height: 100dvh;
+    height: 100svh;
   }
   
   /* Avoid Chrome to see Safari hack */
@@ -52,7 +52,7 @@ header, .home-container {
     background-color: transparent;
     position: relative;
     top: 0;
-    height: 10dvh;
+    height: 10svh;
     z-index: 20;
 }
 
@@ -122,7 +122,7 @@ header, .home-container {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 70dvh;
+    height: 70svh;
     width: 100%;
     padding: 0% 20%;
 }
@@ -151,14 +151,14 @@ header, .home-container {
     align-items: center;
     width: 100%;
     bottom: 0;
-    height: 20dvh;
+    height: 20svh;
     background-color: rgba(8, 78, 91, 1);
 }
 
 .image1-fond, 
 .image2-fond {
     width: 100%;
-    height: 90dvh;
+    height: 90svh;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -168,7 +168,7 @@ header, .home-container {
     display: none;
 }
 .image2-fond{
-    height: 90dvh;
+    height: 90svh;
     z-index: 2;
 }
 
