@@ -13,6 +13,7 @@ body {
 }
 
 header, .home-container {
+    position: relative;
     padding: 0;
     margin: 0;
     height: 100svh;
@@ -52,8 +53,8 @@ header, .home-container {
     background-color: transparent;
     position: relative;
     top: 0;
-    height: 10svh;
     z-index: 20;
+    height: 10svh;
 }
 
 .navbar-title ul {
@@ -118,13 +119,12 @@ header, .home-container {
     display: flex;
     color:  #fff;
     flex-direction: column;
-    z-index: 40;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 70svh;
     width: 100%;
-    padding: 0% 20%;
+    padding: 7% 20% 0% 20%;
+    z-index: 3;
 }
 
 .title-page .title {
@@ -145,13 +145,13 @@ header, .home-container {
 }
 
 .box-container{
+    position: absolute;
     display: flex;
     justify-content: space-around;
-    position: absolute;
     align-items: center;
     width: 100%;
     bottom: 0;
-    height: 20svh;
+    padding: 3% 0%;
     background-color: rgba(8, 78, 91, 1);
 }
 
@@ -181,7 +181,7 @@ header, .home-container {
     height: 100px;
     background-color: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(10px)  opacity(4) !important;
-    z-index: 30;
+    z-index: 3;
     color: #fff;
 }
 
@@ -701,7 +701,7 @@ header, .home-container {
     bottom: 0;
     right: 0;
     margin: 30px;
-    z-index: 50;
+    z-index: 3;
     
 }
 
@@ -787,7 +787,7 @@ footer .right p a:hover{
         overflow: hidden;
         transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         height: 0px;
-        z-index: 50;
+        z-index: 3;
     }
 
     .navbar .navbar-title.resp ul li{
@@ -875,7 +875,6 @@ footer .right p a:hover{
 
     .title-page.resp  {
         width: 100%;
-        height: fit-content;
         z-index: 10;
     }
     
@@ -903,7 +902,6 @@ footer .right p a:hover{
 
     .box-container.resp{
         flex-direction: column;
-        height: fit-content;
         justify-content: center;
         align-items: center;
         text-align: center;
