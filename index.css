@@ -868,9 +868,9 @@ footer .right p a:hover{
 
     .title-page.resp .title.resp h2 {
         font-family: Space Grotesk;
-        font-size: 44px;
+        font-size: 40px;
         font-weight: 700;
-        line-height: 55px;
+        line-height: 50px;
         letter-spacing: -0.04em;
     }
 
@@ -887,7 +887,7 @@ footer .right p a:hover{
         letter-spacing: 0em;
         text-align: center;
         width: 370px;
-        height: 48px;
+        height: 45px;
         padding: 0px 40px;
         border-radius: 6px;
 
@@ -910,15 +910,15 @@ footer .right p a:hover{
 
     .box-container.resp .box{
         width: 301px;
-        height: 71.67px;
+        height: 55px;
         border-radius: 71.67px;
         border: 0.72px;
         margin:  1% 0%;
     }
 
     .box-container.resp .box .logo-container{
-        width: 57.33px;
-        height: 57.33px;
+        width: 40px;
+        height: 40px;
         margin: 0px 5px;
         padding: 0px;
         align-items: center;
@@ -1048,8 +1048,8 @@ footer .right p a:hover{
     }
 
     .box-container.resp .box{
-        width: 301px;
-        height: 60px;
+        width: 250px;
+        height: 50px;
         border-radius: 71.67px;
         border: 0.72px;
         margin:  8px 0px;
@@ -1076,9 +1076,9 @@ footer .right p a:hover{
 
     .title-page.resp .title.resp h2 {
         font-family: Space Grotesk;
-        font-size: 44px;
+        font-size: 40px;
         font-weight: 700;
-        line-height: 55px;
+        line-height: 45px;
         letter-spacing: -0.04em;
     }
 }
