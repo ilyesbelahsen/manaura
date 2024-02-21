@@ -15,17 +15,10 @@ body {
 header, .home-container {
     padding: 0;
     margin: 0;
-    height: 100vh ;
-    height: -webkit-fill-available;
+    height: 100dvh;
   }
   
   /* Avoid Chrome to see Safari hack */
-@supports (-webkit-touch-callout: none) {
-    header, .home-container {
-      /* The hack for Safari */
-        height: -webkit-fill-available;
-    }
-}
 
 .reveal-left{
     opacity: 0;
@@ -59,7 +52,7 @@ header, .home-container {
     background-color: transparent;
     position: relative;
     top: 0;
-    height: 10%;
+    height: 10dvh;
     z-index: 20;
 }
 
@@ -129,7 +122,7 @@ header, .home-container {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 70%;
+    height: 70dvh;
     width: 100%;
     padding: 0% 20%;
 }
@@ -158,14 +151,14 @@ header, .home-container {
     align-items: center;
     width: 100%;
     bottom: 0;
-    height: 220px;
+    height: 20dvh;
     background-color: rgba(8, 78, 91, 1);
 }
 
 .image1-fond, 
 .image2-fond {
     width: 100%;
-    height: 90%;
+    height: 90dvh;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -175,7 +168,7 @@ header, .home-container {
     display: none;
 }
 .image2-fond{
-    height: 90%;
+    height: 90dvh;
     z-index: 2;
 }
 
@@ -847,16 +840,9 @@ footer .right p a:hover{
         display: flex;
         align-items: center;
         text-align: center;
-        height: 100%;
-        height: 10dvh;
         padding: 0% 5%;
         align-items: center;
         justify-content: space-between;
-    }
-
-    .navbar-title.resp {
-        width: 100%;
-        height: 5vh;
     }
 
     .home-container.resp .navbar.resp .logo-resp {
@@ -1063,7 +1049,7 @@ footer .right p a:hover{
     }
 
     .title-page.resp{
-        padding: 12% 10%;
+        padding: 12% 7%;
     }
 
     .box-container.resp .box{
