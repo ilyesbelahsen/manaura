@@ -23,18 +23,7 @@ header {
   
   /* Avoid Chrome to see Safari hack */
   @supports (-webkit-touch-callout: none) {
-    body {
-      /* The hack for Safari */
-      min-height: -webkit-fill-available;
-    }
-  }
-
-html {
-    height: -webkit-fill-available;
-}
-
-@supports (-webkit-touch-callout: none) {
-    body {
+    header {
       /* The hack for Safari */
       min-height: -webkit-fill-available;
     }
