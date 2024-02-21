@@ -16,7 +16,7 @@ header, .home-container {
     position: relative;
     padding: 0;
     margin: 0;
-    height: 100svh;
+    height: 100dvh;
   }
   
   /* Avoid Chrome to see Safari hack */
@@ -54,7 +54,7 @@ header, .home-container {
     position: relative;
     top: 0;
     z-index: 20;
-    height: 10svh;
+    height: 10dvh;
 }
 
 .navbar-title ul {
@@ -158,7 +158,7 @@ header, .home-container {
 .image1-fond, 
 .image2-fond {
     width: 100%;
-    height: 90svh;
+    height: 90dvh;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -168,7 +168,7 @@ header, .home-container {
     display: none;
 }
 .image2-fond{
-    height: 90svh;
+    height: 90dvh;
     z-index: 2;
 }
 
