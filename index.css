@@ -16,6 +16,7 @@ header, .home-container {
     position: relative;
     padding: 0;
     margin: 0;
+    top: 0;
     height: 100dvh;
   }
   
@@ -115,7 +116,7 @@ header, .home-container {
 }
 
 .title-page{
-    position: absolute;
+    position: relative;
     display: flex;
     color:  #fff;
     flex-direction: column;
@@ -874,7 +875,7 @@ footer .right p a:hover{
     }
 
     .title-page.resp  {
-        width: 100%;
+        padding: 7% 7% 0% 7% !important;
         z-index: 10;
     }
     
@@ -1046,13 +1047,9 @@ footer .right p a:hover{
         width: 100%;
     }
 
-    .title-page.resp{
-        padding: 12% 7%;
-    }
-
     .box-container.resp .box{
         width: 301px;
-        height: 65px;
+        height: 60px;
         border-radius: 71.67px;
         border: 0.72px;
         margin:  8px 0px;
@@ -1066,7 +1063,7 @@ footer .right p a:hover{
 @media only screen and (max-width: 1260px) {
 
     .title-page.resp .title-btn.resp{
-        margin: 10% 0%;
+        margin: 5% 0%;
     }
 
     .box-container.resp .box{
